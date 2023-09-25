@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ウェブページのタイトル</title>
+    <style>
+        /* スタイルシートをここに追加 */
+        /* 例: ヘッダーのスタイル */
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        /* 他の要素のスタイルもここに追加 */
+    </style>
+</head>
+<body>
+    <header>
+        <!-- ヘッダー部分 -->
+        <h1>ヘッダータイトル</h1>
+        <div>
+            <!-- 5つの写真を表示 -->
+            <img src="image1.jpg" alt="写真1">
+            <img src="image2.jpg" alt="写真2">
+            <img src="image3.jpg" alt="写真3">
+            <img src="image4.jpg" alt="写真4">
+            <img src="image5.jpg" alt="写真5">
+        </div>
+    </header>
+
+    <section>
+        <!-- メインビジュアル部分 -->
+        <div id="slideshow">
+            <img src="main_image1.jpg" alt="メイン画像1">
+            <img src="main_image2.jpg" alt="メイン画像2">
+            <img src="main_image3.jpg" alt="メイン画像3">
+            <!-- 他のメイン画像もここに追加 -->
+        </div>
+    </section>
+
+    <main>
+        <!-- メインコンテンツ部分 -->
+        <div class="content">
+            <a href="site1.html">サイト1</a>
+            <a href="site2.html">サイト2</a>
+            <!-- 他のサイトへのリンクもここに追加 -->
+        </div>
+        <div class="content">
+            <a href="site3.html">サイト3</a>
+            <a href="site4.html">サイト4</a>
+            <!-- 他のサイトへのリンクもここに追加 -->
+        </div>
+        <!-- 他の行もここに追加 -->
+    </main>
+
+    <footer>
+        <!-- フッター部分 -->
+        <p>住所: 〒123-4567 東京都東京市</p>
+        <p>連絡先: example@example.com</p>
+    </footer>
+</body>
+</html>
