@@ -10,7 +10,7 @@
     <header>
         <!-- ヘッダー部分 -->
         <h1>ヘッダータイトル</h1>
-        <div>
+        <div id="headerImages">
             <!-- 5つの写真を表示 -->
             <img src="image1.jpg" alt="写真1">
             <img src="image2.jpg" alt="写真2">
@@ -49,8 +49,28 @@
 
     <footer>
         <!-- フッター部分 -->
-        <p>住所: 〒123-4567 東京都東京市</p>
-        <p>連絡先: example@example.com</p>
+        <p>住所: <span id="address">〒123-4567 東京都東京市</span></p>
+        <p>連絡先: <span id="contact">example@example.com</span></p>
     </footer>
+
+    <script>
+        // JavaScriptをここに追加
+        // メインビジュアルの切り替え
+        const slideshow = document.getElementById("slideshow");
+        const images = slideshow.getElementsByTagName("img");
+        let currentIndex = 0;
+
+        function changeImage() {
+            images[currentIndex].style.display = "none";
+            currentIndex = (currentIndex + 1) % images.length;
+            images[currentIndex].style.display = "block";
+        }
+
+        setInterval(changeImage, 3000); // 3秒ごとに画像を切り替え
+
+        // 住所と連絡先を変更
+        document.getElementById("address").textContent = "〒987-6543 大阪府大阪市";
+        document.getElementById("contact").textContent = "info@example.jp";
+    </script>
 </body>
 </html>
