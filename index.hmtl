@@ -4,17 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ウェブページのタイトル</title>
-    <style>
-        /* スタイルシートをここに追加 */
-        /* 例: ヘッダーのスタイル */
-        header {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 20px;
-        }
-        /* 他の要素のスタイルもここに追加 */
-    </style>
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
     <header>
@@ -44,13 +34,15 @@
         <!-- メインコンテンツ部分 -->
         <div class="content">
             <a href="site1.html">サイト1</a>
+        </div>
+        <div class="content">
             <a href="site2.html">サイト2</a>
-            <!-- 他のサイトへのリンクもここに追加 -->
         </div>
         <div class="content">
             <a href="site3.html">サイト3</a>
+        </div>
+        <div class="content">
             <a href="site4.html">サイト4</a>
-            <!-- 他のサイトへのリンクもここに追加 -->
         </div>
         <!-- 他の行もここに追加 -->
     </main>
